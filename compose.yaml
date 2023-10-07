@@ -1,0 +1,10 @@
+services:
+  mongodb:
+    image: 'mongo:latest'
+    container_name: 'jaya_wishlist'
+#    environment:
+#      - 'MONGO_INITDB_DATABASE=wishlist'
+#      - 'MONGO_INITDB_ROOT_PASSWORD=root'
+#      - 'MONGO_INITDB_ROOT_USERNAME=root'
+    ports:
+      - '27017:27017'
